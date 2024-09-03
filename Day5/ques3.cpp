@@ -13,4 +13,5 @@ int main(){
         else c++;
     }
     cout<<"\b"<<"Number of Vowel's: "<<v<<"\n"<<"Number of Consonant's: "<<c<<endl;
+    return 0;
 }

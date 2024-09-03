@@ -6,4 +6,5 @@ int main(){
     getline(cin,a);
     reverse(a.begin(),a.end());
     cout<<a;
+    return 0;
 }

@@ -6,4 +6,5 @@ int main(){
     cin>>a;
     if(a&1)cout<<"Odd";
     else cout<<"Even";
+    return 0;
 }
