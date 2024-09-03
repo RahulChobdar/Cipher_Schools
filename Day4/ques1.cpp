@@ -10,7 +10,7 @@ int main(){
     cout<<"Subtraction: "<<a-b<<endl;
     cout<<"Multiplication: "<<a*b<<endl;
     if(b!=0){
-        cout<<"Division: "<<a/double(b)<<endl;
+        cout<<"Division: "<<setprecision(2)<<a/double(b)<<endl;
     }
     else{
         cout<<"Cannot be divided by 0"<<endl;

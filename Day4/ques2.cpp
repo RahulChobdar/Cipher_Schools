@@ -7,13 +7,13 @@ private:
 
 public:
     Complex(double r, double i) : real(r), imag(i) {}
-    Complex operator+(const Complex& other){
+    Complex operator+(const Complex& other) const {
         return Complex(real + other.real, imag + other.imag);
     }
-    Complex operator-(const Complex& other){
+    Complex operator-(const Complex& other) const{
         return Complex(real - other.real, imag - other.imag);
     }
-    void display(){
+    void display() const {
         cout << real << " + " << imag << "i";
     }
 };
